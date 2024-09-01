@@ -34,7 +34,7 @@ export default App;
 
 ## Demo 📸
 
-[Live Demo](https://deploy-preview-1--boisterous-cupcake-dc91c8.netlify.app/)
+[Live Demo](https://deploy-preview-1--aquamarine-nougat-106d52.netlify.app/)
 
 ![Screenshot](./src/Screenshot%202024-09-01%20184954.png)
 
