@@ -4,7 +4,8 @@
   width: 100%;
 }
 
-textarea, #preview {
+textarea,
+#preview {
   flex: 1;
   height: calc(100vh - 40px);
 }

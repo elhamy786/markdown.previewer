@@ -72,13 +72,13 @@ a {
 }
 
 a:hover {
-  color: #9ae6b4; /* Lighter green on hover */
+  color: #9ae6b4;
 }
 
 blockquote {
-  background-color: rgba(0, 0, 0, 0.7); /* Darker black */
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
-  border-left: 5px solid #38a169; /* Light green border */
+  border-left: 5px solid #38a169;
 }
 
 table {
@@ -100,29 +100,29 @@ td {
 }
 
 th {
-  background-color: #22543d; /* Dark green */
-  color: #9ae6b4; /* Light green text */
+  background-color: #22543d;
+  color: #9ae6b4;
 }
 
 code {
-  background-color: rgba(0, 0, 0, 0.8); /* Black */
-  color: #38a169; /* Light green text */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #38a169;
   padding: 2px 4px;
   border-radius: 4px;
 }
 
 pre {
-  background-color: rgba(0, 0, 0, 0.8); /* Black */
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 15px;
   border-radius: 8px;
-  color: #38a169; /* Light green text */
+  color: #38a169;
   font-size: 15px;
 }
 
 img {
   max-width: 100%;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(13, 49, 2, 0.5); /* Dark green glow around images */
+  box-shadow: 0 0 10px rgba(13, 49, 2, 0.5);
 }
 
 h1,

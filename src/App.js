@@ -57,9 +57,9 @@ function App() {
     <div className="App">
       <div className="content-container">
         <h4 className="header">Editor</h4>
-        <textarea id="editor" value={markdown} onChange={handleChange}></textarea>
+        <textarea id="editor" value={markdown} onChange={handleChange} />
         <h4 className="header">Preview</h4>
-        <div id="preview" dangerouslySetInnerHTML={{ __html: marked(markdown) }}></div>
+        <div id="preview" dangerouslySetInnerHTML={{ __html: marked(markdown) }} />
       </div>
     </div>
   );
