@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { marked } from 'marked';
 import './App.css';
 
-// Configure marked to handle line breaks
 marked.setOptions({
   breaks: true,
 });
@@ -59,7 +58,9 @@ function App() {
         <h4 className="header">Editor</h4>
         <textarea id="editor" value={markdown} onChange={handleChange} />
         <h4 className="header">Preview</h4>
+        {/* eslint-disable react/no-danger */}
         <div id="preview" dangerouslySetInnerHTML={{ __html: marked(markdown) }} />
+        {/* eslint-enable react/no-danger */}
       </div>
     </div>
   );
