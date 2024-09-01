@@ -17,7 +17,7 @@ Here’s some inline code: \`<div></div>\`.
 \`\`\`JavaScript
 // This is a multi-line code block:
 function exampleFunction(startLine, endLine) {
-  if (start Line === '\\\' && end Line === '\\\') {
+ 
     return multiLineCode;
   }
 }
@@ -26,7 +26,7 @@ function exampleFunction(startLine, endLine) {
 You can also format text to be **bold**, _italic_, or **_both_**. 
 Additionally, you can use ~~strikethrough~~ text.
 
-There are also [links](https://www.freecodecamp.org), and
+There are also [links](https://github.com/elhamy786/markdown.previewer), and
 > Block Quotes!
 
 For more advanced formatting, here’s a table:
@@ -43,8 +43,7 @@ For more advanced formatting, here’s a table:
 1. Numbered lists are supported too.
 1. Use \`1.\` for all items if you prefer.
 1. Finally, you can embed images:
-
-![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+![Typig picture](https://drive.google.com/file/d/1oAg5-pLrd9IVBS-l3m9to1EGlNXzW1zq/view?usp=drive_link)
 `;
 
 function App() {
@@ -56,11 +55,12 @@ function App() {
 
   return (
     <div className="App">
-      <textarea id="editor" value={markdown} onChange={handleChange}></textarea>
-      <div
-        id="preview"
-        dangerouslySetInnerHTML={{ __html: marked(markdown) }}
-      ></div>
+      <div className="content-container">
+        <h4 className="header">Editor</h4>
+        <textarea id="editor" value={markdown} onChange={handleChange}></textarea>
+        <h4 className="header">Preview</h4>
+        <div id="preview" dangerouslySetInnerHTML={{ __html: marked(markdown) }}></div>
+      </div>
     </div>
   );
 }
