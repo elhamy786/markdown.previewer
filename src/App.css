@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+textarea,
+#preview {
+  flex: 1;
+  height: calc(100vh - 40px);
+}
